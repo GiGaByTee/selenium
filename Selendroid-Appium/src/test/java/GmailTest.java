@@ -21,7 +21,7 @@ import java.util.concurrent.TimeUnit;
  * Created by nazar on 7/12/16.
  */
 public class GmailTest {
-
+    // added comment1
     @Test(dataProviderClass = GmailData.class, dataProvider = "login")
     public void loginTest(String email,String password){
         GmailWorker.login(email,password);

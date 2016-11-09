@@ -26,7 +26,7 @@ public class GmailTest {
     public void loginTest(String email,String password){
         GmailWorker.login(email,password);
     }
-
+    // remote change
     @Test(dependsOnMethods = "loginTest",dataProviderClass = GmailData.class, dataProvider = "sendMessage")
     public void sendMessage(String email, String text){
         GmailWorker.refreshMailbox();

@@ -1,0 +1,6 @@
+rmi_interface/StringInterface.class
+rmi_interface/CalculatorInterface.class
+rmi_implementation/StringImpl.class
+rmi_implementation/CalculatorImplementation.class
+rmi_server2/LengthServer.class
+rmi_server/CalculatorServer.class
